@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>Rectangle</title>
+<style>
+.p2 table{
+	background:green;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	color:white;
+}
+.p2 th{background:black;}
+.p2 input[type="text"]  {border:solid 3px black;background:#CCCCCC;width:300px;}
+.p2 input[type="button"]{border:solid white 1px;background:black;color:white;}
+.p2 .center{text-align:center;}
+</style>
+</head>
+<body>
+	
+<form method="post" action="grade.js" class="p2">
+<table>
+<tr><th colspan="2">GRADE PROBLEM</th></tr>
+<tr><td>Enter Midterm:</td><td> <input name="mid" type="text" /> </td></tr>
+<tr><td>Enter Final: </td><td> <input name="Fin" type="text" /> </td></tr>
+<tr><td>Enter Semester: </td><td> <input name="Sem" type="text" /> </td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr>
+	<td colspan="2" class="center" >
+		<input type="submit" value="Numerical"  name="choice" />
+		<input type="submit" value="Letter" 	name="choice"/>
+		<input type="submit" value="Both" 		name="choice"/>
+		<input type="reset" value="Clear" />
+	</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
